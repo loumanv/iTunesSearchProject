@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C703A0F71CA8809F00494279 /* ITunesTrack_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C703A0F61CA8809F00494279 /* ITunesTrack_Tests.m */; settings = {ASSET_TAGS = (); }; };
+		C703A0F91CA880D800494279 /* ITunesSearch_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C703A0F81CA880D800494279 /* ITunesSearch_Tests.m */; settings = {ASSET_TAGS = (); }; };
 		C7FF2D171CA6BBA20037078F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FF2D161CA6BBA20037078F /* main.m */; };
 		C7FF2D1A1CA6BBA20037078F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FF2D191CA6BBA20037078F /* AppDelegate.m */; };
-		C7FF2D1D1CA6BBA20037078F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FF2D1C1CA6BBA20037078F /* MasterViewController.m */; };
-		C7FF2D201CA6BBA20037078F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FF2D1F1CA6BBA20037078F /* DetailViewController.m */; };
+		C7FF2D1D1CA6BBA20037078F /* TracksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FF2D1C1CA6BBA20037078F /* TracksViewController.m */; };
+		C7FF2D201CA6BBA20037078F /* TrackDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FF2D1F1CA6BBA20037078F /* TrackDetailViewController.m */; };
 		C7FF2D231CA6BBA20037078F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FF2D211CA6BBA20037078F /* Main.storyboard */; };
 		C7FF2D251CA6BBA20037078F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7FF2D241CA6BBA20037078F /* Assets.xcassets */; };
 		C7FF2D281CA6BBA20037078F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FF2D261CA6BBA20037078F /* LaunchScreen.storyboard */; };
-		C7FF2D331CA6BBA20037078F /* iTunesSearchProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FF2D321CA6BBA20037078F /* iTunesSearchProjectTests.m */; };
+		C7FF2D3F1CA6C1CF0037078F /* ITunesSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FF2D3E1CA6C1CF0037078F /* ITunesSearch.m */; settings = {ASSET_TAGS = (); }; };
+		C7FF2D421CA6CD3C0037078F /* ITunesTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FF2D411CA6CD3C0037078F /* ITunesTrack.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +31,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C703A0F61CA8809F00494279 /* ITunesTrack_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITunesTrack_Tests.m; sourceTree = "<group>"; };
+		C703A0F81CA880D800494279 /* ITunesSearch_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITunesSearch_Tests.m; sourceTree = "<group>"; };
 		C7FF2D121CA6BBA20037078F /* iTunesSearchProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesSearchProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7FF2D161CA6BBA20037078F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C7FF2D181CA6BBA20037078F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7FF2D191CA6BBA20037078F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C7FF2D1B1CA6BBA20037078F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		C7FF2D1C1CA6BBA20037078F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		C7FF2D1E1CA6BBA20037078F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		C7FF2D1F1CA6BBA20037078F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C7FF2D1B1CA6BBA20037078F /* TracksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TracksViewController.h; sourceTree = "<group>"; };
+		C7FF2D1C1CA6BBA20037078F /* TracksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TracksViewController.m; sourceTree = "<group>"; };
+		C7FF2D1E1CA6BBA20037078F /* TrackDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackDetailViewController.h; sourceTree = "<group>"; };
+		C7FF2D1F1CA6BBA20037078F /* TrackDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackDetailViewController.m; sourceTree = "<group>"; };
 		C7FF2D221CA6BBA20037078F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7FF2D241CA6BBA20037078F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7FF2D271CA6BBA20037078F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7FF2D291CA6BBA20037078F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7FF2D2E1CA6BBA20037078F /* iTunesSearchProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesSearchProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7FF2D321CA6BBA20037078F /* iTunesSearchProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTunesSearchProjectTests.m; sourceTree = "<group>"; };
 		C7FF2D341CA6BBA20037078F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7FF2D3D1CA6C1CF0037078F /* ITunesSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITunesSearch.h; sourceTree = "<group>"; };
+		C7FF2D3E1CA6C1CF0037078F /* ITunesSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITunesSearch.m; sourceTree = "<group>"; };
+		C7FF2D401CA6CD3C0037078F /* ITunesTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITunesTrack.h; sourceTree = "<group>"; };
+		C7FF2D411CA6CD3C0037078F /* ITunesTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITunesTrack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,10 +94,14 @@
 			children = (
 				C7FF2D181CA6BBA20037078F /* AppDelegate.h */,
 				C7FF2D191CA6BBA20037078F /* AppDelegate.m */,
-				C7FF2D1B1CA6BBA20037078F /* MasterViewController.h */,
-				C7FF2D1C1CA6BBA20037078F /* MasterViewController.m */,
-				C7FF2D1E1CA6BBA20037078F /* DetailViewController.h */,
-				C7FF2D1F1CA6BBA20037078F /* DetailViewController.m */,
+				C7FF2D3D1CA6C1CF0037078F /* ITunesSearch.h */,
+				C7FF2D3E1CA6C1CF0037078F /* ITunesSearch.m */,
+				C7FF2D401CA6CD3C0037078F /* ITunesTrack.h */,
+				C7FF2D411CA6CD3C0037078F /* ITunesTrack.m */,
+				C7FF2D1B1CA6BBA20037078F /* TracksViewController.h */,
+				C7FF2D1C1CA6BBA20037078F /* TracksViewController.m */,
+				C7FF2D1E1CA6BBA20037078F /* TrackDetailViewController.h */,
+				C7FF2D1F1CA6BBA20037078F /* TrackDetailViewController.m */,
 				C7FF2D211CA6BBA20037078F /* Main.storyboard */,
 				C7FF2D241CA6BBA20037078F /* Assets.xcassets */,
 				C7FF2D261CA6BBA20037078F /* LaunchScreen.storyboard */,
@@ -110,7 +122,8 @@
 		C7FF2D311CA6BBA20037078F /* iTunesSearchProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				C7FF2D321CA6BBA20037078F /* iTunesSearchProjectTests.m */,
+				C703A0F81CA880D800494279 /* ITunesSearch_Tests.m */,
+				C703A0F61CA8809F00494279 /* ITunesTrack_Tests.m */,
 				C7FF2D341CA6BBA20037078F /* Info.plist */,
 			);
 			path = iTunesSearchProjectTests;
@@ -217,9 +230,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7FF2D1A1CA6BBA20037078F /* AppDelegate.m in Sources */,
-				C7FF2D1D1CA6BBA20037078F /* MasterViewController.m in Sources */,
+				C7FF2D421CA6CD3C0037078F /* ITunesTrack.m in Sources */,
+				C7FF2D1D1CA6BBA20037078F /* TracksViewController.m in Sources */,
 				C7FF2D171CA6BBA20037078F /* main.m in Sources */,
-				C7FF2D201CA6BBA20037078F /* DetailViewController.m in Sources */,
+				C7FF2D201CA6BBA20037078F /* TrackDetailViewController.m in Sources */,
+				C7FF2D3F1CA6C1CF0037078F /* ITunesSearch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +242,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7FF2D331CA6BBA20037078F /* iTunesSearchProjectTests.m in Sources */,
+				C703A0F71CA8809F00494279 /* ITunesTrack_Tests.m in Sources */,
+				C703A0F91CA880D800494279 /* ITunesSearch_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +367,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vasileios-Loumanis.iTunesSearchProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -362,6 +379,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vasileios-Loumanis.iTunesSearchProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -408,6 +426,7 @@
 				C7FF2D391CA6BBA20037078F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7FF2D3A1CA6BBA20037078F /* Build configuration list for PBXNativeTarget "iTunesSearchProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +435,7 @@
 				C7FF2D3C1CA6BBA20037078F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

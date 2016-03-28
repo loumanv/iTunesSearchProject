@@ -8,12 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@class DetailViewController;
+@class TrackDetailViewController;
 
-@interface MasterViewController : UITableViewController
+@interface TracksViewController : UITableViewController <UISearchBarDelegate>
 
-@property (strong, nonatomic) DetailViewController *detailViewController;
-
+@property (strong, nonatomic) TrackDetailViewController *trackDetailViewController;
 
 @end
 

@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ITunesTrack.h"
 
-@interface DetailViewController : UIViewController
+@interface TrackDetailViewController : UIViewController
 
-@property (strong, nonatomic) id detailItem;
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (strong, nonatomic) ITunesTrack *track;
 
 @end
 
