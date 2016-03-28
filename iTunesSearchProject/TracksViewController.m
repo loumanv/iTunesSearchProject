@@ -23,7 +23,10 @@
     [super viewDidLoad];
     self.itunesSearch = [[ITunesSearch alloc] init];
     self.trackDetailViewController = (TrackDetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
-    self.trackDetailViewController.track = [ITunesTrack demoTrack];
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+    {
+        self.trackDetailViewController.track = [ITunesTrack demoTrack];
+    }
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -39,7 +42,6 @@
         TrackDetailViewController *trackDetailViewController = (TrackDetailViewController *)[[segue destinationViewController] topViewController];
         trackDetailViewController.track = self.itunesSearch.tracksArray[indexPath.row];
         trackDetailViewController.title = trackDetailViewController.track.name;
-        trackDetailViewController.navigationItem.leftBarButtonItem = self.splitViewController.displayModeButtonItem;
         trackDetailViewController.navigationItem.leftItemsSupplementBackButton = YES;
     }
 }
